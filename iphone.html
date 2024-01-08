@@ -6,9 +6,9 @@
     <title>Iphone 15 Plus 512 BG</title>
     <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
     <style>
-         .container{
+       .container{
             display: grid;
-            grid-template-columns: 4.5fr 7.5fr;
+            grid-template-columns: 1fr 5fr 6fr;
             padding-top: 42px ;
             grid-gap: 40px;
         }
@@ -41,12 +41,42 @@
         ul li span{
             color: black;
         }
+        .boxIphone{
+            display: flex;
+            flex-direction: column;
+            
+        }
+        .iphoneBox{
+            width: 100px;
+            height: 100px;
+            border: 1px solid black;
+            background-size: cover;
+            padding: 3px;
+        }
+        img{
+            width: 97px;
+            height: 97px;
+        }
+        iframe{
+            height: 100%;
+            width: 100%;
+            background-color: cadetblue;
+        } 
     </style>
 </head>
 <body>
     <div class="container">
+        <div class="boxIphone">
+           <div class="iphoneBox"><a target="frameBody" href="public/image/download.jpg"><img src="public/image/download.jpg"></a></div>
+           <div class="iphoneBox"><a target="frameBody" href="public/image/iphone1.JPG"><img src="public/image/iphone1.JPG"></a></div>
+           <div class="iphoneBox"><a target="frameBody" href="public/image/iphone2.JPG"><img src="public/image/iphone2.JPG"></a></div>
+           <div class="iphoneBox"><a target="frameBody" href="public/image/iphone3.JPG"><img src="public/image/iphone3.JPG"></a></div>
+           <div class="iphoneBox"><a target="frameBody" href="public/image/iphone4.JPG"><img src="public/image/iphone4.JPG"></a></div>
+           <div class="iphoneBox"><a target="frameBody" href="public/image/iphone5.JPG"><img src="public/image/iphone5.JPG"></a></div>
+            
+        </div>
         <div>
-            <img src="./public/image/download.jpg" alt="Iphone 15 Plus 512 GB">
+            <iframe src="public/image/download.jpg" name="frameBody"></iframe>
         </div>
         <div>
             <div><font face="arial" size="5" color="black">APPLE iPhone 15 Plus (Pink, 512 GB)</font></div>
@@ -58,7 +88,6 @@
                 <br>
                 <div>
                     <font face="arial" color="green">Extra &#8377 6901 off</font>
-                    
                 </div>
                 <br>
                 <div>
@@ -76,7 +105,6 @@
                     <li class="bi bi-tag-fill"><span>Special PriceGet extra ₹6901 off (price inclusive of cashback/coupon)T&C</span></li>
                     
                 </ul>
-                
             </div>
         </div>
     </div>
